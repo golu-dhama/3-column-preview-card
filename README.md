@@ -6,7 +6,7 @@ This project includes clean spacing, hover effects, and a fully mobile-friendly 
 ---
 
 ## 🚀 Live Demo
-`https://your-live-link-here.com`
+https://golu-dhama.github.io/3-column-preview-card/
 
 ---
 
