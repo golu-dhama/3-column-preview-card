@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: url("images/pexels-muhammad-saidul-islam-2149777728-31006547.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+
+    
+    border-radius: 14px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 920px;
+    
+}
+.content{
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    transition: 0.3s ease;
+    
+}
+.box{
+    flex: 1;
+}
+.sub-card1{
+    background-color: rgb(226, 133, 37, 0.8);
+}
+.sub-card2{
+    background-color: rgb(1, 105, 114, 0.8);
+}
+.sub-card3{
+    background-color: rgb(0, 64, 63, 0.6);
+}
+.car-logo{
+    width: 64px;
+}
+.text-area h2{
+    font-size: 38px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+    font-family: sans-serif;
+}
+.text-area p{
+    margin-top: 10px;
+    max-width: 240px;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.6;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    margin-top: auto;
+    padding-top: 20px;
+}
+.footer button{
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn1{
+    color: #e28525;
+    font-size: 18px;
+}
+.btn2{
+    color: #016972;
+    font-size: 18px;
+}
+.btn3{
+    color: #00403f;
+    font-size: 18px;
+}
+ @media (max-width: 900px){
+    body{
+        align-items: flex-start;
+    }
+    .card{
+        flex-direction: column;
+        max-width: 360px;
+    }
+    .content{
+        padding: 20px;
+    }
+ }
+ .btn1:hover{
+    background-color: #e28525;
+    color: white;
+    border: 2px solid white;
+ }
+ .btn2:hover{
+    background-color: #016972;
+    border: 2px solid white;
+    color: white;
+ }
+ .btn3:hover{
+    background-color: #00403f;
+    border: 2px solid white;
+    color: white;
+ }
+ 
+.sub-card1, .sub-card2, .sub-card3{
+  transition: background-color 0.3s ease;
+}
+
+.sub-card1:hover{
+  background-color: rgba(226, 133, 37, 1);
+}
+
+.sub-card2:hover{
+  background-color: rgba(1, 105, 114, 1);
+}
+
+.sub-card3:hover{
+  background-color: rgba(0, 64, 63, 1);
+}
+
+
